@@ -1,0 +1,53 @@
+{
+  "name": "playwright-ion-modal",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "test:unit": "vitest",
+    "lint": "eslint .",
+    "prettier": "prettier --write src tests"
+  },
+  "dependencies": {
+    "@capacitor/app": "7.0.1",
+    "@capacitor/core": "7.4.2",
+    "@capacitor/haptics": "7.0.1",
+    "@capacitor/keyboard": "7.0.1",
+    "@capacitor/status-bar": "7.0.1",
+    "@ionic/vue": "^8.7.1",
+    "@ionic/vue-router": "^8.7.1",
+    "ionicons": "^8.0.13",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "7.4.2",
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.1.0",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/eslint-config-typescript": "^14.6.0",
+    "@vue/test-utils": "^2.4.6",
+    "eslint": "^9.32.0",
+    "eslint-plugin-vue": "^10.4.0",
+    "jsdom": "^26.1.0",
+    "prettier": "^3.6.2",
+    "prettier-plugin-organize-imports": "^4.2.0",
+    "terser": "^5.43.1",
+    "typescript": "~5.8.3",
+    "vite": "~7.0.6",
+    "vitest": "^3.2.4",
+    "vue-tsc": "^3.0.5"
+  },
+  "description": "An Ionic project",
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "none",
+    "vueIndentScriptAndStyle": true,
+    "plugins": [
+      "prettier-plugin-organize-imports"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "playwright-ion-modal",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
