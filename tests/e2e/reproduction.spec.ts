@@ -1,6 +1,6 @@
 import { expect, test } from '@playwright/test';
 
-test('has title', async ({ page }) => {
+test('unexpected ionic sheet modal screenshot behavior', async ({ page }) => {
   await page.setViewportSize({
     width: 390,
     height: 844
